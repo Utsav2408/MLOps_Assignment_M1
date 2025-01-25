@@ -17,6 +17,6 @@ def test_model_prediction():
     assert len(prediction) == 1, "Prediction output shape is incorrect"
     print("Model prediction test passed")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     test_model_loading()
     test_model_prediction()

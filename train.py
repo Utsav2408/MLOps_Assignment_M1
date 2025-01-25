@@ -25,5 +25,5 @@ def train_and_save_model():
     joblib.dump(model, "model.joblib")
     print("Model saved as model.joblib")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     train_and_save_model()
